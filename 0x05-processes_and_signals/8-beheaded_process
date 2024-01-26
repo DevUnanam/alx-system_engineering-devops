@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+pid=$( ps aux | grep ./7-highlander | awk '{print $2}'
+
+for i in $pid
+do
+	kill -n 9 "$i"
+	break
+done
