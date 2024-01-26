@@ -4,7 +4,7 @@
 trap "echo I am invicible!!!" 0 2 15
 
 i=0
-until [ "$i -eq 1 ]
+until [ "$i" -eq 1 ]
 do
 	echo "To infinity and beyond"
 	sleep 2
