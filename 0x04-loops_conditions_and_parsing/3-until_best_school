@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #using an until loop to display "Best school" 10 times
 
 counter=1
