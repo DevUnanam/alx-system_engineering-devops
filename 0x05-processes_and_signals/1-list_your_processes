@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
+#a script that displays a list of the currently runnign process
 
 ps -e -o pid,ppid,user,cmd --forest
