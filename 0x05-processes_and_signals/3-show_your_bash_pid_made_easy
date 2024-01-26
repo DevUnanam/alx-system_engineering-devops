@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#displas the pid and process name of the processes cotaining the word bash
+
+pids=$( pgrep bash )
+for i in $pids
+do
+	echo "$i bash"
+done
