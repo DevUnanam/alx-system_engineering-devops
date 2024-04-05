@@ -1,6 +1,0 @@
-E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
-E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
-Failed to start apache2.service: Access denied
-See system logs and 'systemctl status apache2.service' for details.
-./0-nginx_likes_port_80: line 6: /var/www/html/index.html: No such file or directory
-./0-nginx_likes_port_80: line 7: /etc/apache2/apache2.conf: Permission denied
