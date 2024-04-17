@@ -1,0 +1,1 @@
+intalling mysql on servers
